@@ -1,0 +1,58 @@
+.text-hours {
+   
+    color: purple;
+}
+.text-minutes {
+    color: orange;
+}
+.text-seconds {
+    color: orangered;
+}
+
+.clock span{
+    font-size: 160px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block; /* Display spans as inline-block */
+    margin: 0; /* Remove any default margins */
+    padding: 0; /* Remove any default paddings */
+}
+.zipcodeinfo {
+    position: absolute; 
+    margin-left: 10px;
+    bottom: 0%;
+}
+.clock {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    white-space: nowrap; 
+}
+
+/* 
+body {
+    background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsX29mZmljZV8yX3Bob3RvX29mX2FfbGlvbl9pc29sYXRlZF9vbl9jb2xvcl9iYWNrZ3JvdW5kXzJhNzgwMjM1LWRlYTgtNDMyOS04OWVjLTY3ZWMwNjcxZDhiMV8xLmpwZw.jpg");
+    background-repeat: repeat;
+    background-size: 200px;
+} */
+
+/* style.css */
+#map {
+    height: 100vh; /* Set a fixed height */
+    width: 100%; /* Use the full width of the container */
+    z-index: -1;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.link {
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+}
